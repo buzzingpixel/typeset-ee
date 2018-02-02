@@ -5,9 +5,7 @@
 # ...custom project ignore
 auth.json
 configLocal.json
-libraries/ExpressionEngine/system/user/cache
-libraries/ExpressionEngine/system/user/config
-libraries/ExpressionEngine/system/user/addons
+libraries/ExpressionEngine/system/user
 /libraries/ExpressionEngine/system/ee
 /libraries/ExpressionEngine/themes
 

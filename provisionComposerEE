@@ -206,6 +206,18 @@ file_put_contents(
  * Symlink addon files
  */
 
+// Vendor
+if (is_link("{$projPath}/typeset/vendor") ||
+    file_exists("{$projPath}/typeset/vendor") ||
+    is_dir("{$projPath}/typeset/vendor")
+) {
+    exec("sudo rm -rf {$projPath}/typeset/vendor");
+}
+symlink(
+    "{$projPath}/vendor",
+    "{$projPath}/typeset/vendor"
+);
+
 // System
 if (is_link("{$projPath}/{$relativeSysPath}/user/addons/typeset") ||
     file_exists("{$projPath}/{$relativeSysPath}/user/addons/typeset") ||
