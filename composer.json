@@ -16,6 +16,9 @@
             "url": "git@github.com:tjdraper/expressionengine.git"
         }
     ],
+    "require": {
+        "michelf/php-smartypants": "^1.8"
+    },
     "require-dev": {
         "tjdraper/expressionengine": "^4.0.8"
     },
