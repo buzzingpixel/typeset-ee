@@ -24,6 +24,16 @@ sudo rm -rf /etc/nginx/sites-enabled/*;
 
 
 ###################################
+# Install tools
+###################################
+
+sudo apt-get install jq zip unzip
+
+
+
+
+
+###################################
 # Run PHP Provisioning Script
 ###################################
 
