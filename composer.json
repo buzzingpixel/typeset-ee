@@ -1,0 +1,32 @@
+{
+    "name": "buzzingpixel/typeset-ee",
+    "version": "1.0.0",
+    "description": "Typography functions for ExpressionEngine",
+    "type": "ee-add-on",
+    "authors": [
+        {
+            "name": "TJ Draper",
+            "email": "tj@buzzingpixel.com",
+            "homepage": "https://buzzingpixel.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:tjdraper/expressionengine.git"
+        }
+    ],
+    "require-dev": {
+        "tjdraper/expressionengine": "^4.0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "buzzingpixel\\typeset\\": "typeset",
+            "EllisLab\\" : "vendor/tjdraper/expressionengine/src/system/ee/EllisLab"
+        }
+    },
+    "extra": {
+        "handle": "typeset",
+        "systemPath": "typeset"
+    }
+}
